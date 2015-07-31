@@ -1,0 +1,154 @@
+body{
+	padding:0px;
+	margin:0px;
+	font-family:calibri;
+}
+
+a {text-decoration:none;}
+.header_line{
+	background-color:#6699ff;
+	width:auto;
+	height:10px;
+}
+
+.header{
+	width:100%;
+	height:50px;
+	position:fixed;
+	box-shadow:0px 2px 2px #CACACA;
+	top:10px;
+	background-color:white;
+	line-height:40px;
+}
+.header_holder{
+	width:1000px;
+	height:auto;
+	margin:auto;
+}
+.navigation{
+	height:40px;
+	float:right;
+	width:500px;
+	text-align:right;
+}
+
+.nav_butt{
+	width:100px;
+	float:right;
+	padding:5px;
+	text-align:center;
+	color:black;
+}
+
+.nav_butt:hover{
+	background-color:#6699ff;
+	color:white;
+	transition:1s all;
+}
+
+.logo{
+	float:left;
+	height:40px;
+	margin:5px;
+	margin-left:20px;
+	width:250px;
+	font-size:25px;
+	font-weight:bold;
+	color:#555;
+	font-family:Century Gothic;
+}
+
+.content{
+	width:1000px;
+	height:auto;
+	min-height:500px;
+	margin:auto;
+	margin-top:70px;
+}
+
+.search_box{
+	width:940px;
+	font-size:30px;
+	box-shadow:0px 0px 3px #CACACA;
+	border:none;
+	overflow:hidden;
+	padding-left:20px;
+}
+.search_holder{
+	width:1000px;
+	padding:5px;
+	overflow:hidden;
+}
+
+input{	
+	box-shadow:0px 0px 3px #AAAAAA;
+	border:none;
+	height:40px;
+	overflow:hidden;
+	float:left;
+	width:580px;
+	margin-bottom:10px;
+	padding:10px;
+}
+td{text-align:right; padding-left:20px;}
+textarea{
+	margin-bottom:10px;
+	width:580px;
+	box-shadow:0px 0px 3px #AAAAAA;
+	border:none;
+	height:100px;
+	overflow:hidden;
+	float:left;
+	padding:10px;
+}
+
+.differently_abled{background:url('../images/search.png') no-repeat  center; opacity:0.9;}
+
+.campaign_box{
+	width:1000px;
+	height:auto;
+	min-height:300px;
+	
+}
+
+
+.single_product{
+	width:200px;
+	height:200px;
+	float:left;
+	margin-left:20px;
+	text-align:center;
+	margin-top:5px;
+}
+
+.img_holder{overflow:hidden; height:120px; width:200px; margin-bottom:20px;}
+
+.single_product img{width:200px; height:auto; }
+
+.pic{
+	width:200px;
+	height:auto;
+	background-color:green;
+	}
+
+.single_product a{text-decoration:none; color:#777}
+.cam_name{
+	font-weight:bold;
+	text-align:center;
+}
+
+.cam_info{
+	color:#9f9f9f;
+	text-align:center;
+}
+
+
+.mp {
+	height:200px; 
+	background-color:white;
+	box-shadow:0px 0px 5px #9f9f9f; 
+	margin-left:0px; 
+	margin-right:40px;
+	margin-top:10px;
+	color:#777;
+}
